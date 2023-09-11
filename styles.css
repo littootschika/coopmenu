@@ -1,0 +1,68 @@
+h1 {
+text-align: center;
+padding-left: 30%;
+padding-right: 30%;
+background-color: yellow;
+padding-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+
+h2 {
+text-align: center;
+font-size: 26;
+background-color: gold;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+h3 {
+margin-top: 0px;
+background-color: goldenrod;
+margin-bottom: 0px;
+}
+
+img {
+height: 125px;
+}
+
+img:hover {
+border: 5px double limegreen;
+height: 110px;
+}
+
+span {
+font-size: 400%;
+color: firebrick;
+background-color: white;
+text-align: center;
+}
+
+p {
+text-align: center;
+font-size: 450%;
+font-family: impact;
+border-left: 15px solid red;
+border-right: 15px solid red;
+border-bottom: 25px solid crimson;
+border-top: 10px solid firebrick;
+padding: 10px;
+background-color: salmon;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+button {
+font-family: impact;
+border: 3px solid black;
+}
+
+audio {
+height: 15px;
+width: 200px;
+}
+
+body {
+background-color: white;
+}
