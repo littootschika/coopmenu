@@ -76,6 +76,7 @@ function discordlightmode() {
   document.getElementById('audiobutton2').style.backgroundColor = 'white';
   document.getElementById('audiobutton3').style.backgroundColor = 'white';
   document.getElementById('audiobutton4').style.backgroundColor = 'white';
+  document.getElementById('audiobutton5').style.backgroundColor = 'white';
   document.getElementById('youhavechosen').style.borderTop = '15px solid white';
   document.getElementById('youhavechosen').style.borderBottom = '15px solid white';
   document.getElementById('youhavechosen').style.borderLeft = '15px solid white';
@@ -88,6 +89,7 @@ function discordlightmode() {
   document.getElementById('audiobutton2').style.border = '3px solid white';
   document.getElementById('audiobutton3').style.border = '3px solid white';
   document.getElementById('audiobutton4').style.border = '3px solid white';
+  document.getElementById('audiobutton5').style.border = '3px solid white';
   confirm('You are an idiot for using discord light mode');
 };
 
