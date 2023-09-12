@@ -17,6 +17,7 @@ function darkmode() {
   document.getElementById('audiobutton2').style.backgroundColor = 'blue';
   document.getElementById('audiobutton3').style.backgroundColor = 'blue';
   document.getElementById('audiobutton4').style.backgroundColor = 'blue';
+  document.getElementById('audiobutton5').style.backgroundColor = 'blue';
   document.getElementById('youhavechosen').style.borderTop = '15px solid aqua';
   document.getElementById('youhavechosen').style.borderBottom = '15px solid darkcyan';
   document.getElementById('youhavechosen').style.borderLeft = '15px solid mediumturquoise';
@@ -26,6 +27,7 @@ function darkmode() {
   document.getElementById('audiobutton2').style.border = '3px solid limegreen';
   document.getElementById('audiobutton3').style.border = '3px solid limegreen';
   document.getElementById('audiobutton4').style.border = '3px solid limegreen';
+  document.getElementById('audiobutton5').style.border = '3px solid limegreen';
 };
 
 function firelightmode() {
