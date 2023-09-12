@@ -1,8 +1,6 @@
 h1 {
 text-align: center;
-padding-left: 30%;
-padding-right: 30%;
-background-color: yellow;
+background-color: red;
 padding-bottom: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
@@ -12,7 +10,6 @@ margin-top: 0px;
 h2 {
 text-align: center;
 font-size: 26;
-background-color: gold;
 margin-top: 0px;
 margin-bottom: 0px;
 }
@@ -58,10 +55,6 @@ font-family: impact;
 border: 3px solid black;
 }
 
-audio {
-height: 15px;
-width: 200px;
-}
 
 body {
 background-color: white;
