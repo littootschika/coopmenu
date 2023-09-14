@@ -153,18 +153,3 @@ function backin1969mode() {
   document.getElementById('audiobutton3').style.border = '3px solid black';
   document.getElementById('audiobutton4').style.border = '3px solid black';
 }
-
-function changebackgrounds() {
-onload="
-var backgroundimage = Math.floor(Math.random() * 2) +1;
-if (backgroundimage = 1) {
-document.getElementById('html').style.backgroundImage = url(docs/assets/old fashion chicken.png);
-};
-else if (backgroundimage = 2) {
-document.getElementById('html').style.backgroundImage = url(docs/assets/tschika fetch the chips.png);
-};
-else {
-document.getElementById('html').style.backgroundColor = 'white';
-};
-"
-}
