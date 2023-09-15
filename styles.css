@@ -1,6 +1,5 @@
 h1 {
 text-align: center;
-background-color: red;
 padding-bottom: 0px;
 margin-bottom: 0px;
 margin-top: 0px;
@@ -11,13 +10,11 @@ h2 {
 text-align: center;
 font-size: 26;
 margin-top: 0px;
-background-color: yellow;
 margin-bottom: 0px;
 }
 
 h3 {
 margin-top: 0px;
-background-color: goldenrod;
 margin-bottom: 0px;
 }
 
@@ -33,22 +30,8 @@ height: 110px;
 span {
 font-size: 400%;
 color: firebrick;
-background-color: orange;
+padding-left: 30
 text-align: center;
-}
-
-p {
-text-align: center;
-font-size: 450%;
-font-family: impact;
-border-left: 15px solid red;
-border-right: 15px solid red;
-border-bottom: 25px solid crimson;
-border-top: 10px solid firebrick;
-padding: 10px;
-background-color: salmon;
-margin-top: 10px;
-margin-bottom: 0px;
 }
 
 button {
