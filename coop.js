@@ -1,4 +1,5 @@
-window.onload = changebackground() {
+
+window.onload = changebackground {
   const images = [
     "docs/assets/old fashion chicken.png",
     "docs/assets/tschika fetch the chips.png"
