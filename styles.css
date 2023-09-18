@@ -30,15 +30,9 @@ height: 110px;
 span {
 font-size: 400%;
 color: firebrick;
-padding-left: 30
+padding-left: 30;
 text-align: center;
 }
-
-button {
-font-family: impact;
-border: 3px solid black;
-}
-
 
 body {
 background-size: cover;
