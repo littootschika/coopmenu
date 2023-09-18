@@ -1,4 +1,4 @@
-window.onload = ChangeBackground() {
+function ChangeBackground() {
 const images = [
   "docs/assets/old fashion chicken.png",
   "docs/assets/tschika fetch the chips.png"
@@ -8,3 +8,4 @@ var selectedImage = images[randomIndex];
 
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
+window.onload = ChangeBackground()
