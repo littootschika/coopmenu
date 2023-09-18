@@ -1,4 +1,4 @@
-window.onload = ChangeBackground() {
+window.onLoad = ChangeBackground() {
   var images = [
     "docs/assets/old fashion chicken.png",
     "docs/assets/tschika fetch the chips.png"
