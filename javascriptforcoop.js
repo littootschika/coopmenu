@@ -8,4 +8,3 @@ var selectedImage = images[randomIndex];
 
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
-window.onload = ChangeBackground()
