@@ -38,3 +38,8 @@ body {
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+div {
+verticle-align: top;
+font-size: 80%;
+}
