@@ -9,6 +9,5 @@ const images = [
 ];
 var randomIndex = Math.floor(Math.random() * images.length);
 var selectedImage = images[randomIndex];
-
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
