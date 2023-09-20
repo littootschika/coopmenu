@@ -25,6 +25,7 @@ img {
 height: 125px;
 position: relative;
 top: 340px;
+border: 2px solid black;
 }
 
 img:hover {
