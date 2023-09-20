@@ -4,7 +4,8 @@ const images = [
   "docs/assets/tschika fetch the chips.png",
   "docs/assets/justice for shrimp.png",
   "docs/assets/find your inner tschika.png",
-  "docs/assets/littoo tschika find about cybersaftey meme.png"
+  "docs/assets/littoo tschika find about cybersaftey meme.png",
+  "docs/assets/Tschika rave.png"
 ];
 var randomIndex = Math.floor(Math.random() * images.length);
 var selectedImage = images[randomIndex];
