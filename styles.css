@@ -52,11 +52,11 @@ div {
 
 /*star rating*/
 .container {
-  width: 800px;
+  width: 400px;
   background: rgba(0, 0, 0, 0.7);
-  border: 15px solid crimson;
-  padding: 40px, 60px;
-  border-radius: 10px;
+  border: 5px solid crimson;
+  padding: 20px, 30px;
+  border-radius: 5px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -68,11 +68,11 @@ div {
 }
 
 .star-widget label {
-  font-size: 80px;
+  font-size: 40px;
   float: right;
   color: dark-grey;
-  padding: 20px;
-  transition: all 0.2 ease;
+  padding: 10px;
+  transition: all 0.2s ease;
 }
 .star-widget input:not(:checked) ~ label:hover,
 .star-widget input:not(:checked) ~ label:hover ~ label{
@@ -83,7 +83,7 @@ color: salmon;
 }
 
 form .textarea {
-  height: 200px;
+  height: 100px;
   width: 100%;
   overflow: hidden;
 }
@@ -93,9 +93,33 @@ form .textarea textarea {
   width: 100%;
   outline: none;
   border: 2px solid salmon;
-  background: rgb(34, 34, 34)
-  padding: 20px;
-  font-size: 30px;
+  background: rgb(34, 34, 34);
+  padding: 10px;
+  font-size: 17px;
   color: yellow;
   resize: none;
 }
+
+form.button {
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+form.button button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid salmon;
+  outline: none;
+  background: orange;
+  color: rgb(255, 213, 128);
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease
+}
+
+form.button button:hover{
+  background-color: black;
+}
+
