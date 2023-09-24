@@ -49,3 +49,31 @@ div {
 verticle-align: top;
 font-size: 80%;
 }
+
+/*star rating*/
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: '\2605';
+}
+
+.rating input:checked ~ label {
+  color: #ffcc00;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #ffcc00;
+}
