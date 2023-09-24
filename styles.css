@@ -1,79 +1,101 @@
 h1 {
-text-align: center;
-padding-bottom: 0px;
-margin-bottom: 0px;
-margin-top: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 color: crimson;
 }
 
 
 h2 {
-text-align: center;
-font-size: 26;
-margin-top: 0px;
-margin-bottom: 0px;
-color: crimson;
+  text-align: center;
+  font-size: 26;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: crimson;
 }
 
 h3 {
-margin-top: 0px;
-margin-bottom: 0px;
-color: crimson;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: crimson;
 }
 
 img {
-height: 125px;
-position: relative;
-top: 340px;
-border: 2px solid black;
+  height: 125px;
+  position: relative;
+  top: 340px;
+  border: 2px solid black;
 }
 
 img:hover {
-border: 5px double limegreen;
-height: 110px;
+  border: 5px double limegreen;
+  height: 110px;
 }
 
 span {
-font-size: 400%;
-color: firebrick;
-padding-left: 30;
-text-align: center;
+  font-size: 400%;
+  color: firebrick;
+  padding-left: 30;
+  text-align: center;
 }
 
 body {
-background-size: cover;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div {
-verticle-align: top;
-font-size: 80%;
+  verticle-align: top;
+  font-size: 80%;
 }
 
 /*star rating*/
-.rating {
-  display: inline-block;
+.container {
+  width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 15px solid crimson;
+  padding: 40px, 60px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.rating input {
+.container .star-widget input{
   display: none;
 }
 
-.rating label {
+.star-widget label {
+  font-size: 80px;
+  float: right;
+  color: dark-grey;
+  padding: 20px;
+  transition: all 0.2 ease;
+}
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label{
+color: yellow;
+}
+input#rate-5: checked  ~ label {
+color: salmon;
+}
+
+form .textarea {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 2px solid salmon;
+  background: rgb(34, 34, 34)
+  padding: 20px;
   font-size: 30px;
-  color: #ccc;
-  cursor: pointer;
-}
-
-.rating label:before {
-  content: '\2605';
-}
-
-.rating input:checked ~ label {
-  color: #ffcc00;
-}
-
-.rating label:hover,
-.rating label:hover ~ label {
-  color: #ffcc00;
+  color: yellow;
+  resize: none;
 }
