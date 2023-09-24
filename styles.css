@@ -67,6 +67,10 @@ div {
   display: none;
 }
 
+input:checked ~ form {
+  display: block;
+}
+
 .star-widget label {
   font-size: 40px;
   float: right;
