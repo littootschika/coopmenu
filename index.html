@@ -26,39 +26,48 @@ today? SCROLL DOWN
 </br>
 
 <br>
-<div class="container" style="position: relative; top: 390px;">
-<h1 style="font-size: 10;">HAYOO! Gvive us a star rating!</h1>
-  <div class="star-widget">
-    <input type="radio"; namne="rate" id="rate-5">
-    <label for="rate-5"></label>
-    <input type="radio"; namne="rate" id="rate-4">
-    <label for="rate-4"></label>
-    <input type="radio"; namne="rate" id="rate-3">
-    <label for="rate-3"></label>
-    <input type="radio"; namne="rate" id="rate-2">
-    <label for="rate-2"></label>
-    <input type="radio"; namne="rate" id="rate-1">
-    <label for="rate-1"></label>
-    <form action="#">
-      <div class="textarea">
-      <textarea colse="30" placeholder="What do you want improven, tschika? (or in other words, what would you like to become insomnious about and work through the whole night, chicken?)"></textarea>
+    <div class="container" style="position: relative; top: 390px;">
+      <div class="post">
+        <div class="text">Thanks for rating us!</div>
+        <div class="edit">EDIT</div>
       </div>
-      <div class="button">
-        <buttone type="submit">Put on da internet</button>
+      <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Describe your experience.."></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Post</button>
+          </div>
+        </form>
       </div>
-  </div>
-</div>
-<script>
-const button = document.querySelector('button')
-const post = document.querySelector('.post')
-const widget = document.querySelector('.star-widget')
-
-button.onclick = ()=>
-  widget.style.display = 'none';
-  post.style.display = 'block';
-  return false;
-}
-</script>
+    </div>
+    <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
 </br>
 
 </body>
