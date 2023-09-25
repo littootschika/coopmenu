@@ -52,18 +52,16 @@ div {
 
 /*star rating*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 html,body{
   display: grid;
   height: 100%;
   place-items: center;
   text-align: center;
   background: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
   position: relative;
@@ -76,14 +74,26 @@ html,body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container .post{
   display: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container .text{
   font-size: 25px;
   color: #666;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container .edit{
   position: absolute;
@@ -93,12 +103,24 @@ html,body{
   color: #666;
   font-weight: 500;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container .edit:hover{
   text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container .star-widget input{
   display: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .star-widget label{
   font-size: 40px;
@@ -106,38 +128,82 @@ html,body{
   padding: 10px;
   float: right;
   transition: all 0.2s ease;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
   color: #fd4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input:checked ~ label{
   color: #fd4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input#rate-5:checked ~ label{
   color: #fe7;
   text-shadow: 0 0 20px #952;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 #rate-1:checked ~ form header:before{
   content: "I just hate it ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 #rate-2:checked ~ form header:before{
   content: "I don't like it ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 #rate-3:checked ~ form header:before{
   content: "It is awesome ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 #rate-4:checked ~ form header:before{
   content: "I just like it ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 #rate-5:checked ~ form header:before{
   content: "I just love it ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .container form{
   display: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input:checked ~ form{
   display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form header{
   width: 100%;
@@ -147,11 +213,19 @@ form header{
   margin: 5px 0 20px 0;
   text-align: center;
   transition: all 0.2s ease;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form .textarea{
   height: 100px;
   width: 100%;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form .textarea textarea{
   height: 100%;
@@ -163,14 +237,26 @@ form .textarea textarea{
   padding: 10px;
   font-size: 17px;
   resize: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 .textarea textarea:focus{
   border-color: #444;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form .btn{
   height: 45px;
   width: 100%;
   margin: 15px 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form .btn button{
   height: 100%;
@@ -184,7 +270,15 @@ form .btn button{
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 form .btn button:hover{
   background: #1b1b1b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
