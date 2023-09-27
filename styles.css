@@ -45,14 +45,22 @@ body {
   background-repeat: no-repeat;
 }
 
-div {
+main {
   verticle-align: top;
   font-size: 80%;
 }
 
 /*star rating*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-.container{
+div {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #000;
+}
+
+.container {
   position: relative;
   width: 400px;
   background: #111;
