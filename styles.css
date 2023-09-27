@@ -49,7 +49,10 @@ main {
   verticle-align: top;
   font-size: 80%;
 }
-
+.intro {
+verticle-align: top;
+font-size: 80%;
+}
 /*star rating*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 div {
