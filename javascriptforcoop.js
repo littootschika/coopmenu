@@ -11,12 +11,3 @@ var randomIndex = Math.floor(Math.random() * images.length);
 var selectedImage = images[randomIndex];
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
-
-const stars = document.querySelectorAll('.rating input');
-
-stars.forEach(star => {
-  star.addEventListener('change', (e) => {
-    const rating = e.target.value;
-    console.log(`You rated with ${rating} stars!`);
-  });
-});
