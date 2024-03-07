@@ -7,7 +7,7 @@ const images = [
   "docs/assets/littoo tschika find about cybersaftey meme.png",
   "docs/assets/Tschika rave.png"
 ];
-var randomIndex = Math.floor(Math.random() * images.length);
-var selectedImage = images[randomIndex];
+const randomIndex = Math.floor(Math.random() * images.length);
+let selectedImage = images[randomIndex];
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
