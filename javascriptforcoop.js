@@ -24,8 +24,8 @@ function lockIdiots() {
   catch(err){
     alert(err);
   }
-if (passwordBoxInput = 'zxcvbnm,./'){
-  alert('yes');
-  window.open('https://littootschika.github.io/tschika-catcher/');
-}
+  if (passwordBoxInput = 'zxcvbnm,./'){
+    alert('YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO');
+    window.open('https://littootschika.github.io/tschika-catcher/');
+  }
 }
