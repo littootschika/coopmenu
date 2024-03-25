@@ -11,3 +11,10 @@ const randomIndex = Math.floor(Math.random() * images.length);
 let selectedImage = images[randomIndex];
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
+
+function lockIdiots() {
+  let passwordBox = document.createElement('input');
+  passwordBox.setAttribute('type', 'text');
+  let passwordBoxPassword = 'forTSCHIKApurposesonly';
+  
+}
