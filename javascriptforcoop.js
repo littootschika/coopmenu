@@ -13,8 +13,8 @@ document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
 
 function lockIdiots() {
-  let keyboardLetters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
-  let passwordBox = document.getElementById('passwordbox');
+  const keyboardLetters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
+  const passwordBox = document.getElementById('passwordbox');
   let passwordBoxInput = passwordBox.innerHTML;
   try {
     if (passwordBoxInput.includes(keyboardLetters)){
