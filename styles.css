@@ -40,3 +40,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#containerForPasswords{
+  display: block;
+  border: 3px blue solid;
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  color: red;
+  bototm: 0px;
+}
