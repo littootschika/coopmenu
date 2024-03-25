@@ -15,11 +15,12 @@ document.body.style.backgroundImage = "url('" + selectedImage + "')";
 function lockIdiots() {
   const keyboardLetters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
   const passwordBox = document.getElementById('passwordbox');
-  let passwordBoxInput = passwordBox.innerHTML;
+  let passwordBoxInput = passwordBox.valueOf();
   try {
-    if (passwordBoxInput.includes(keyboardLetters)){
-      throw "The password does not contain letters. Also, I might've changed it, so let me know";
+    if (isNaN(passwordBoxInput) && passwordBoxInput !== 'zxcvbnm,./'){
+      throw "The password does not contain letters.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n retard";
     }
+    if (passwordBoxInput)
   }
   catch(err){
     alert(err);
