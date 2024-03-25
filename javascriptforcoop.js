@@ -13,8 +13,19 @@ document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
 
 function lockIdiots() {
-  let passwordBox = document.createElement('input');
-  passwordBox.setAttribute('type', 'text');
-  let passwordBoxPassword = 'forTSCHIKApurposesonly';
-  
+  let keyboardLetters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
+  let passwordBox = document.getElementById('passwordbox');
+  let passwordBoxInput = passwordBox.innerHTML;
+  try {
+    if (passwordBoxInput.includes(keyboardLetters)){
+      throw "The password does not contain letters. Also, I might've changed it, so let me know";
+    }
+  }
+  catch(err){
+    alert(err);
+  }
+if (passwordBoxInput = 'zxcvbnm,./'){
+  alert('yes');
+  window.open('https://littootschika.github.io/tschika-catcher/');
+}
 }
