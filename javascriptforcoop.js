@@ -11,20 +11,15 @@ const randomIndex = Math.floor(Math.random() * images.length);
 let selectedImage = images[randomIndex];
 document.body.style.backgroundImage = "url('" + selectedImage + "')";
 };
-function lockIdiots() {
-  const keyboardLetters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm'];
-  const passwordBox = document.getElementById('passwordbox');
-  let passwordBoxInput = passwordBox.valueOf();
-  try {
-    if (passwordBoxInput.includes(keyboardLetters) && passwordBoxInput !== "zxcvbnm,./"){
-      throw "The password does not contain letters";
-    }
-  }
-  catch(err){
-    alert(err);
-  }
-  if (passwordBoxInput == 'zxcvbnm,./'){
-    alert('YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO');
+function lockIdiots(){
+  let password = "zXCVBNM,./";
+  let passwordBox = document.getElementById('passwordbox');
+  let passwordBoxInput = passwordBox.value;
+  console.log(passwordBoxInput);
+  if (passwordBoxInput == password){
     window.open('https://littootschika.github.io/tschika-catcher/');
+  }
+  else{
+    alert('doesn\'t have letters or numbers or special characters. Hint: it\'s the upper 2nd lower line from the track >;D');
   }
 }
