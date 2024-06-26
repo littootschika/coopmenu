@@ -52,6 +52,7 @@ body {
 }
 
 .otherClass{
+  opacity: 0.33;
   color: #000;
   font-size: 1em;
   text-align: left;
